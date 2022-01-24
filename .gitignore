@@ -5,7 +5,8 @@ specs
 tests.zip
 package-lock.json
 .nyc_output/
-.env.*
+.env.k8s-platform
 log/*.log
 results/*
 coverage
+.idea/*

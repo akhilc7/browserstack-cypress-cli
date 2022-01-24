@@ -1,0 +1,29 @@
+{
+  "auth": {
+    "username": "automation1",
+    "access_key": "zQiaARUfPMRsjF7Mxqpv"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "OS X Catalina",
+      "versions": ["90"]
+    }
+  ],
+  "run_settings": {
+    "cypress_proj_dir": "test/cypress-staging-tests",
+    "project_name": "Test Cypress",
+    "build_name": "sanity - 1",
+    "exclude": [],
+    "parallels": 40,
+    "npm_dependencies": {},
+    "package_config_options": {},
+    "headless": true,
+    "cypress_version": "6"
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": "my-cypress-local"
+  },
+  "disable_usage_reporting": true
+}
